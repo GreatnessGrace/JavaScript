@@ -69,6 +69,10 @@ console.log(5 === "5"); // false
 
 // Truthy: Values considered true in a boolean context (e.g., 1, "text", [], {}).
 // Falsy: Values considered false in a boolean context (e.g., 0, "", null, undefined, NaN, false).
+
+// Falsy values include: '' (empty string), 0, false, null, undefined, and NaN.
+// Truthy values include: Any non-empty string, even if it only contains whitespace, numbers (except 0), objects, arrays, etc.
+
 // Practical Examples
 // 1. Grade Marks Using if-else:
 
